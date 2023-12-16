@@ -26,7 +26,7 @@ module.exports = {
                 .setColor("#6666aa")
                 .setTitle(cmdmap.length + " commands")
                 .setDescription(cmdmap.join(", "))
-                .setFooter(`Want help using a specific command? Use ${prefix}help [command name]. • Nibble ${revision}`)
+                .setFooter(`Want help using a specific command? Use ${prefix}help [command name]. • Version ${revision}`)
             )
         }
 
