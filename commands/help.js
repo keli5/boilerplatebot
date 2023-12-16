@@ -10,12 +10,13 @@ module.exports = {
         // Filter out command.hidden commands
         const cmdmap = client.commands.filter(x => !x.hidden).map(x => x.name)
         const prefix = client.config.prefix
+        let revision = ""
         try {
-            let revision = require('child_process')
+            revision = require('child_process')
                 .execSync('git rev-parse --short HEAD')
                 .toString().trim()
         } catch (e) {
-            let revision = "Git failed"
+            revision = "Git failed"
         }
         let helpEmbed = new MessageEmbed()
         
