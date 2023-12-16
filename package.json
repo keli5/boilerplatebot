@@ -1,0 +1,25 @@
+{
+  "name": "boilerplatebot",
+  "version": "1.0.0",
+  "description": "Eris bot skeleton",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keli5/boilerplatebot.git"
+  },
+  "author": "keli5",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keli5/boilerplatebot/issues"
+  },
+  "homepage": "https://github.com/keli5/boilerplatebot#readme",
+  "dependencies": {
+    "discord-eris-embeds": "^1.0.4",
+    "eris": "^0.17.2"
+  },
+  "devDependencies": {
+  }
+}
